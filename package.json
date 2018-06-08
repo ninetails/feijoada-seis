@@ -1,0 +1,20 @@
+{
+  "name": "feijoada-seis",
+  "version": "0.0.1",
+  "description": "Crime occurs, nothing happens",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninetails/feijoada-seis"
+  },
+  "keywords": [
+    "node",
+    "hapi",
+    "graphql"
+  ],
+  "author": "Ninetails - Carlos Kazuo",
+  "license": "MIT"
+}
