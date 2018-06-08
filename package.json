@@ -2,7 +2,7 @@
   "name": "feijoada-seis",
   "version": "0.0.1",
   "description": "Crime occurs, nothing happens",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
