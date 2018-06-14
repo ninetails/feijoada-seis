@@ -4,11 +4,11 @@
   "description": "Crime occurs, nothing happens",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ninetails/feijoada-seis"
+    "url": "git+https://github.com/ninetails/feijoada-seis.git"
   },
   "keywords": [
     "node",
@@ -16,5 +16,21 @@
     "graphql"
   ],
   "author": "Ninetails - Carlos Kazuo",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninetails/feijoada-seis/issues"
+  },
+  "homepage": "https://github.com/ninetails/feijoada-seis#readme",
+  "dependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "hapi": "^17.5.1",
+    "mongoose": "^5.1.5",
+    "nodemon": "^1.17.5"
+  }
 }
